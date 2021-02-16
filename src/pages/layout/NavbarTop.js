@@ -62,7 +62,7 @@ const NavbarTop = () => {
                     Eduwisata
                   </NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink
                     to="/pemesanan"
                     activeClassName="active"
@@ -70,7 +70,7 @@ const NavbarTop = () => {
                   >
                     Pemesanan
                   </NavLink>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink
                     to="/gallery"

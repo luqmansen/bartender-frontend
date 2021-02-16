@@ -21,19 +21,18 @@ const Banner = () => {
               </h1>
               <h1 className="text-white">Desa Wisata Penuh Keindahan</h1>
               <div className="mt-3">
-                <button href="" className="btn bg-red text-black mr-2">
+                {/* <button href="" className="btn bg-red text-black mr-2">
                   Cek Destinasi
                 </button>
                 <button href="" className="btn bg-red text-black mr-2">
                   Scan QR Code
-                </button>
+                </button> */}
                 <a href=""></a>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* <h1>HALO</h1> */}
     </>
   );
 };

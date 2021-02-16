@@ -3,7 +3,7 @@ import Gallery from "react-photo-gallery";
 import NavbarTop from "./layout/NavbarTop";
 import { API_URI } from './Constant'
 import { Component } from "react";
-const API_PATH = '/gallery/'
+const API_PATH = 'gallery/'
 
 function changeKeyName(item){
     let ar = getAspectRatio(getMeta(item.image))

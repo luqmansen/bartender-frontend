@@ -15,7 +15,7 @@ const FooterBot = () => {
               </a>
               <a href="">Email</a>
               <div>
-                <small>Made with ❤️ by Saraf Design & <a href='https://id.linkedin.com/in/luqmansen'>luqmansen</a></small>
+                <small>Made with ❤️ by Saraf Design & luqmansen</small>
               </div>
             </div>
           </div>
