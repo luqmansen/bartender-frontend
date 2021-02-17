@@ -23,8 +23,16 @@ const IsiKonten2 = (props) => {
       let ff = [];
       // hacky stuff for parse text on html list to list object
       for (var i in parsed.children) {
-        ff.push(parsed.children[i].children[0].content);
+        
+        var child = parsed.children[i]
+        for (var j=0; j<5; j++){
+          if (child.children){
+            child = child.children[0]
+          }
+        }
+        ff.push(child.content)
       }
+
       setFF(ff);
     }
   }, [props]);
